@@ -2,11 +2,11 @@
 
 **Treasure Hunt**
 
-34 21 32 41 25
-14 42 43 14 31
-54 45 52 42 23
-33 15 51 31 35
-21 52 33 13 23
+  34 21 32 41 25
+  14 42 43 14 31
+  54 45 52 42 23
+  33 15 51 31 35
+  21 52 33 13 23
 
 You need to write a program to explore the above table for a treasure. 
 
@@ -26,11 +26,11 @@ test. For creating unit test we are suggests using pytest.
 
 **Example of input**
 
-55 14 25 52 21
-44 31 11 53 43
-24 13 45 12 34
-42 22 43 32 41
-51 23 33 54 15
+  55 14 25 52 21
+  44 31 11 53 43
+  24 13 45 12 34
+  42 22 43 32 41
+  51 23 33 54 15
 
 **Example of output**
 
@@ -39,22 +39,23 @@ test. For creating unit test we are suggests using pytest.
 ## To run locally
 
 Install dependencies with [Poetry](https://python-poetry.org/docs/):
-```python
+```
 poetry install
 ```
+
 To run FP implementation:
-```python
+```
 python run.py --implementation fp
 ```
 
 To run OOP implementation:
-```python
+```
 python run.py --implementation oop
 python run.py  # It uses OOP implementation by default.
 
 ```
 To run tests:
-```python
+```
 python -m pytest
 ```
 
