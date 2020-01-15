@@ -10,7 +10,7 @@
 21 52 33 13 23
 ```
 
-You need to write a program to explore the above table for a treasure. 
+You need to write a program to explore the above table for a treasure.
 
 The values in the table are clues. Each cell contains a number between 11 and 55, where the ten’s
 digit represents the row number and the unit’s digit represents the column number of the cell
@@ -49,12 +49,12 @@ poetry install
 
 **To run FP implementation:**
 ```
-python run.py --implementation fp
+python run.py **--implementation** fp
 ```
 
 **To run OOP implementation:**
 ```
-python run.py --implementation oop
+python run.py **--implementation** oop
 python run.py  # It uses OOP implementation by default.
 ```
 
@@ -62,4 +62,3 @@ python run.py  # It uses OOP implementation by default.
 ```
 python -m pytest
 ```
-

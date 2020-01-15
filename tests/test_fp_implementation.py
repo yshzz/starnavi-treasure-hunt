@@ -4,7 +4,6 @@ from treasure_hunt.fp_implementation import find_treasure
 
 def test_find_treasure(treasure_map_and_expected_path):
     treasure_map, expected_path = treasure_map_and_expected_path
-    print(treasure_map, expected_path)
     assert find_treasure(treasure_map) == expected_path
 
 
