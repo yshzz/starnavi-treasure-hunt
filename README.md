@@ -42,7 +42,7 @@ test. For creating unit test we are suggests using pytest.
 
 ## To run locally
 
-Install dependencies with [Poetry](https://python-poetry.org/docs/):
+**Install dependencies with [Poetry](https://python-poetry.org/docs/)**:
 ```
 poetry install
 ```
