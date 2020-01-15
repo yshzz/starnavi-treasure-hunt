@@ -2,11 +2,13 @@
 
 **Treasure Hunt**
 
+```
   34 21 32 41 25
   14 42 43 14 31
   54 45 52 42 23
   33 15 51 31 35
   21 52 33 13 23
+ ```
 
 You need to write a program to explore the above table for a treasure. 
 
@@ -26,15 +28,17 @@ test. For creating unit test we are suggests using pytest.
 
 **Example of input**
 
-  55 14 25 52 21
+ ```
+ 55 14 25 52 21
   44 31 11 53 43
   24 13 45 12 34
   42 22 43 32 41
   51 23 33 54 15
+```
 
 **Example of output**
 
-11 55 15 21 44 32 13 25 43
+```11 55 15 21 44 32 13 25 43```
 
 ## To run locally
 
