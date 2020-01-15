@@ -47,18 +47,18 @@ Install dependencies with [Poetry](https://python-poetry.org/docs/):
 poetry install
 ```
 
-To run FP implementation:
+**To run FP implementation:**
 ```
 python run.py --implementation fp
 ```
 
-To run OOP implementation:
+**To run OOP implementation:**
 ```
 python run.py --implementation oop
 python run.py  # It uses OOP implementation by default.
 
 ```
-To run tests:
+**To run tests:**
 ```
 python -m pytest
 ```
