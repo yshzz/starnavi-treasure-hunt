@@ -49,12 +49,12 @@ poetry install
 
 **To run FP implementation:**
 ```
-python run.py **--implementation** fp
+python run.py --implementation fp
 ```
 
 **To run OOP implementation:**
 ```
-python run.py **--implementation** oop
+python run.py --implementation oop
 python run.py  # It uses OOP implementation by default.
 ```
 
